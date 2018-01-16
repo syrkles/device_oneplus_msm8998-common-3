@@ -137,8 +137,7 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
-    camera.device@3.2-impl \
-    Snap
+    camera.device@3.2-impl
 
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0 \
@@ -187,8 +186,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint sensor
 PRODUCT_PACKAGES += \
-    fingerprintd \
-    OneplusPocketMode
+    fingerprintd
 
 # For android_filesystem_config.h
 PRODUCT_PACKAGES += \
@@ -262,10 +260,6 @@ PRODUCT_PACKAGES += \
     android.hardware.light@2.0-impl \
     android.hardware.light@2.0-service \
     lights.msm8998
-
-# LiveDisplay native
-PRODUCT_PACKAGES += \
-    libjni_livedisplay
 
 # Media
 PRODUCT_COPY_FILES += \
