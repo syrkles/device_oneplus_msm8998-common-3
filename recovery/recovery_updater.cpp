@@ -198,6 +198,6 @@ Value * VerifyModemFn(const char *name, State *state, const std::vector<std::uni
     return StringValue(strdup(ret ? "1" : "0"));
 }
 
-void Register_librecovery_updater_oneplus() {
+void Register_librecovery_updater_oneplus_8998() {
     RegisterFunction("oneplus.verify_modem", VerifyModemFn);
 }

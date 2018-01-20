@@ -322,7 +322,7 @@ PRODUCT_PACKAGES += \
 
 # Recovery
 PRODUCT_PACKAGES += \
-    librecovery_updater_oneplus
+    librecovery_updater_oneplus_8998
 
 # RenderScript HAL
 PRODUCT_PACKAGES += \
