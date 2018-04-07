@@ -245,6 +245,10 @@ TARGET_USERIMAGES_USE_EXT4 := true
 # Power
 TARGET_USES_INTERACTION_BOOST := true
 
+# Properties
+BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
+TARGET_VENDOR_PROP += $(PLATFORM_PATH)/vendor.prop
+
 # Gestures
 TARGET_POWER_GESTURE_FILE := $(PLATFORM_PATH)/power/gestures.c
 TARGET_GESTURES_NODE := "/proc/touchpanel/gesture_enable"

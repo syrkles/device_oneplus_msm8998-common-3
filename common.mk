@@ -451,6 +451,3 @@ PRODUCT_COPY_FILES += \
 
 # Inherit from oneplus-common
 $(call inherit-product, device/oneplus/common/common.mk)
-
-# System properties
--include $(LOCAL_PATH)/system_prop.mk
