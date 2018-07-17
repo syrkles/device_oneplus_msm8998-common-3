@@ -253,9 +253,8 @@ BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 TARGET_VENDOR_PROP += $(PLATFORM_PATH)/vendor.prop
 
 # Gestures
-TARGET_POWER_GESTURE_FILE := $(PLATFORM_PATH)/power/gestures.c
 TARGET_GESTURES_NODE := "/proc/touchpanel/gesture_enable"
-TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
+TARGET_DOUBLE_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
 TARGET_DRAW_V_NODE := "/proc/touchpanel/down_arrow_enable"
 TARGET_DRAW_INVERSE_V_NODE := "/proc/touchpanel/up_arrow_enable"
 TARGET_DRAW_O_NODE := "/proc/touchpanel/letter_o_enable"
