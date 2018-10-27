@@ -44,6 +44,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.offload.buffer.size.kb=32 \
     vendor.audio.offload.track.enable=true \
     vendor.voice.path.for.pcm.voip=true \
+    ro.audio.flinger_standbytime_ms=300 \
     vendor.audio.offload.multiaac.enable=true \
     vendor.audio.dolby.ds2.enabled=false \
     vendor.audio.dolby.ds2.hardbypass=false \
